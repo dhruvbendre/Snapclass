@@ -53,6 +53,10 @@ def style_base_layout():
             font-family: 'Outfit', sans-serif !important;
             color: #4a4a6a !important;
         }
+                
+        #mainmenu, footer,header {
+            visibility: hidden !important;
+        }
 
         /* --- Primary button (default) --- */
         button[kind="primary"],
